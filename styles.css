@@ -1,0 +1,102 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+nav {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Clear floats */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Hero Section */
+.hero {
+  background: #007BFF;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #fff;
+  color: #007BFF;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 0;
+  text-align: center;
+  background: #fff;
+}
+
+.feature-box {
+  width: 30%;
+  display: inline-block;
+  margin: 1%;
+  padding: 20px;
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
